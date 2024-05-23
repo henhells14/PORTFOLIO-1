@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oma portfolio sivuni">
+    <link rel="icon" href="IMG_3168.JPG">
+    <link rel="stylesheet" href="css.master.css" type="text/css">
+
+    <title>MOMENTS PRODUCTIONS</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="LOOPPI4.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+
+      <div class="content">
+      
+
+    <h1>MOMENTS PRODUCTIONS</h1>
+
+        <div class="dropdown" style="float:right;">
+            <button class="dropbtn">More info</button>
+            <div class="dropdown-content">
+             <a href="index.html">Home</a>
+            <a href="index2.html">Me</a>
+            <a href="index3.html">About</a>
+            <a href="index4.html">Contact</a>
+            <a href="index5.html">TESTIASETTELU</a>
+            
+            </div>
+          </div>
+
+        <p>Tervetuloa sivuilleni. Olen media-alan yrittäjä ja näiltä sivulta löydät kaikkea mahdollista,<br>
+             mitä olen matkan varella päässyt tekemään ja toteuttamaan. Pääasiassa olen kuvannut, editoinut ja <br>
+             ohjannut TV-ohjelmia, mutta tällä hetkellä opiskelen ohjelmisto,- <br>
+            ja web-suunnittelijaksi. Tämä sivu on itseasissa portfoliosivuni, jossa testailen erilaisia koodinpätkiä
+             <br>
+            ja sivurakenteita.           
+            </p>
+        
+
+        <button id="myBtn" onclick="myFunction()">Pause video</button>
+      </div>
+     
+  
+
+
+      <script>
+      var video = document.getElementById("myVideo");
+      var btn = document.getElementById("myBtn");
+      
+      function myFunction() {
+        if (video.paused) {
+          video.play();
+          btn.innerHTML = "Pause video";
+        } else {
+          video.pause();
+          btn.innerHTML = "Play video";
+        }
+      }
+      </script>
+      
+
+   
+    
+
+  
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    color: whitesmoke;
+
+
+}
+/* NAVIGOINTI NAPIT ALAS */
+.dropbtn {
+    background-color: #0b0b0b;
+    color: rgb(251, 251, 251);
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    margin: 9px;
+    margin-top: -91px;
+    position: relative; 
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #999b99;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #de4f4f;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 26px;
+}
+
+
+
+
+
+div {
+    border: 1px solid #99de8a;
+}
+/* TAUSTAKUVA HENKKA*/
+
+body {
+    background-image: url(REVONTULET.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+
+
+
+#asettelu {
+  width: 1920px;
+
+  margin: 0 auto; /* <-- Keskittää lohkon suhteessa selainikkunaan */
+}
+
+#ylapalkki {
+  height: 100px;
+  background-color: #cfcfcf51;
+}
+
+#navigaatio {
+  height: 50px;
+  background-color: #41db4b44;
+}
+
+#container {
+  display: flex; /* flex tulee tänne */
+  height: 750px;  
+  width: 1500px;
+
+
+}
+
+#vasen {        
+  width: 30%;
+  height: 300px;
+  background-color: #32f2284b;
+}
+
+#oikea {
+  width: 70%; /* Flex hoitaa paremmin leveyttä ja voidaan käyttää %-yksikköä useammin */
+  height: 300px;
+  background-color: #32f2284b;
+}
+
+#alapalkki {
+  height: 50px;
+  background-color: #0cf74a61;
+}
+
